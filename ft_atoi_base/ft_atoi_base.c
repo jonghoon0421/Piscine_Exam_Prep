@@ -6,7 +6,7 @@
 /*   By: jonkim <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/31 14:00:45 by jonkim            #+#    #+#             */
-/*   Updated: 2017/10/09 22:49:08 by jonkim           ###   ########.fr       */
+/*   Updated: 2017/10/10 20:48:19 by jonkim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int		ft_atoi_base(const char *str, int str_base)
 
 int		main()
 {
-	const char string[5] = "12";
+	const char string[5] = "13";
 	int tes = 3;
 	printf("%d\n", ft_atoi_base(string, tes));
 	return (0);
